@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+<body>
+    <h1>Filmaria</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+    <p>Este projeto é uma aplicação web desenvolvida em React que consome a API do <a href="https://www.themoviedb.org/" target="_blank">The Movie Database (TMDb)</a> para exibir os 10 principais filmes em cartaz atualmente. A aplicação permite visualizar detalhes dos filmes, como sinopse e avaliação, e também gerenciar uma lista de favoritos, utilizando o <code>localStorage</code> do navegador.</p>
 
-## Available Scripts
+    <h2>Funcionalidades</h2>
+    <ul>
+        <li>Exibe os 10 principais filmes em cartaz.</li>
+        <li>Visualiza detalhes dos filmes, incluindo sinopse e avaliação.</li>
+        <li>Adiciona filmes à lista de favoritos.</li>
+        <li>Remove filmes da lista de favoritos.</li>
+        <li>Utiliza o <code>localStorage</code> para armazenar a lista de favoritos.</li>
+        <li>Notificações com <a href="https://fkhadra.github.io/react-toastify/" target="_blank">React Toastify</a> para feedbacks de ações.</li>
+        <li>Navegação entre páginas com <a href="https://reactrouter.com/" target="_blank">React Router Dom</a>.</li>
+    </ul>
 
-In the project directory, you can run:
+    <h2>Tecnologias Utilizadas</h2>
+    <ul>
+        <li><a href="https://reactjs.org/" target="_blank">React</a></li>
+        <li><a href="https://reactrouter.com/" target="_blank">React Router Dom</a></li>
+        <li><a href="https://fkhadra.github.io/react-toastify/" target="_blank">React Toastify</a></li>
+        <li><a href="https://www.themoviedb.org/documentation/api" target="_blank">TMDb API</a></li>
+    </ul>
 
-### `npm start`
+    <h2>Instalação</h2>
+    <ol>
+        <li>Clone o repositório:
+            <pre><code>git clone https://github.com/joaopedro-monteiro/filmaria.git</code></pre>
+        </li>
+        <li>Navegue até o diretório do projeto:
+            <pre><code>cd nome-do-repositorio</code></pre>
+        </li>
+        <li>Instale as dependências:
+            <pre><code>npm install</code></pre>
+        </li>
+        <li>Crie um arquivo <code>.env</code> na raiz do projeto e adicione sua chave de API do TMDb:
+            <pre><code>REACT_APP_TMDB_API_KEY=sua-chave-api</code></pre>
+        </li>
+        <li>Inicie o servidor de desenvolvimento:
+            <pre><code>npm start</code></pre>
+        </li>
+    </ol>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    <h2>Uso</h2>
+    <ul>
+        <li>Acesse a aplicação no seu navegador em <code>http://localhost:3000</code>.</li>
+        <li>Navegue pelos filmes em cartaz e veja os detalhes de cada um.</li>
+        <li>Adicione filmes à sua lista de favoritos e gerencie-os conforme desejar.</li>
+    </ul>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    <h2>Contribuições</h2>
+    <p>Se você deseja contribuir para o projeto, fique à vontade para abrir um pull request ou um issue para sugerir melhorias.</p>
 
-### `npm test`
+    <h2>Licença</h2>
+    <p>Este projeto está licenciado sob a <a href="LICENSE" target="_blank">MIT License</a>.</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    <h2>Contato</h2>
+    <p>Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato:</p>
+    <ul>
+        <li>João Pedro - <a href="mailto:joaopedrobdmgbr@gmail.com">joaopedrobdmgbr@gmail.com</a></li>
+        <li>GitHub: <a href="[https://github.com/SEU_USUARIO](https://github.com/joaopedro-monteiro/)" target="_blank">https://github.com/joaopedro-monteiro/</a></li>
+    </ul>
+</body>
