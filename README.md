@@ -2,6 +2,8 @@
 
 Este projeto é uma aplicação web desenvolvida em React que consome a API do [The Movie Database (TMDb)](https://www.themoviedb.org/) para exibir os 10 principais filmes em cartaz atualmente. A aplicação permite visualizar detalhes dos filmes, como sinopse e avaliação, e também gerenciar uma lista de favoritos, utilizando o `localStorage` do navegador.
 
+Link do projeto em produção: https://filmaria-joaopedro.netlify.app/
+
 ## Funcionalidades
 
 - Exibe os 10 principais filmes em cartaz.
